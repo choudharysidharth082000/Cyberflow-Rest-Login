@@ -14,4 +14,4 @@ jobs:
       - name: Run Second Script
         run: echo "Hello Sidharth!!"
       - name: This step is going to fail
-        run: echo "failing..."; exit 1
+        run: echo "failing..."
