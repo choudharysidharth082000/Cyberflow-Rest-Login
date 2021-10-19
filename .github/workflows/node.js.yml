@@ -11,3 +11,7 @@ jobs:
 
       - name: Run a one-line script
         run: echo "Hello, world!"
+      - name: Run Second Script
+        run: echo "Hello Sidharth!!"
+      - name: This step is going to fail
+        run: echo "failing..."; exit 1
